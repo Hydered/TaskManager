@@ -1,0 +1,11 @@
+﻿<Window x:Class="TaskManagerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task Manager" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="TaskListBox" DisplayMemberPath="Title" Margin="10,10,10,100" />
+        <Button x:Name="AddTaskButton" Content="Добавить задачу" Margin="10,350,547,10" Click="AddTaskButton_Click" />
+        <Button x:Name="EditTaskButton" Content="Редактировать задачу" Margin="0,350,0,10" Click="EditTaskButton_Click" HorizontalAlignment="Center" Width="284" />
+        <Button x:Name="DeleteTaskButton" Content="Удалить задачу" Margin="547,350,10,10" Click="DeleteTaskButton_Click" />
+    </Grid>
+</Window>
