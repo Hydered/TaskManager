@@ -44,7 +44,7 @@
      git clone https://github.com/Hydered/TaskManager.git
    
 3. Открытие проекта:
-   - Откройте решение TaskManagerApp.sln в Visual Studio.
+   - Откройте решение WpfApp1.sln в Visual Studio.
 
 4. Сборка и запуск:
    - Нажмите F5 или выберите Debug -> Start Debugging в Visual Studio.
